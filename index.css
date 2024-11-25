@@ -64,8 +64,6 @@ img {
     margin: 30px 0 10px 0;
 }
 
-.link_container {}
-
 .link {
     display: flex;
     flex-direction: column;
@@ -84,4 +82,13 @@ img {
 .link:hover {
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 20%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
